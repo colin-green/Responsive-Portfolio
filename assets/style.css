@@ -1,0 +1,119 @@
+body {
+    background-image: url(images/sun-pattern.png);
+    color: #777777;
+}
+
+.myheader {
+    background-color: #ffffff;
+    border-left: 2px solid #cccccc;
+    border-right: 2px solid #cccccc;
+    border-bottom: 2px solid #cccccc;
+}
+
+.mylinks {
+    padding: 30px 0px 0px 0px;
+}
+
+a {
+    color: 777777;
+}
+
+.mymain {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 960px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 20px 20px 0px 20px;
+}
+
+.pfp {
+    float: left;
+    padding-right: 25px;
+}
+
+p {
+    padding-top: 20px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777
+}
+
+footer {
+    background-color: #666666;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 8px solid #4aaaa5;
+}
+
+#myname {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px 30px 20px 30px;
+}
+
+#aboutme {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    border-bottom: 3px solid #dddddd;
+    padding-bottom: 20px;
+    width: 960px;
+}
+
+.btn-primary {
+    background-color: #4aaaa5;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    width: 920px;
+}
+
+.php {
+    margin: 25px;
+}
+
+h4 {
+    background-color: #4aaaa5;
+    color: #dddddd;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.portpicbox {
+    position: relative;
+}
+
+.text-block {
+  position: absolute;
+  width: 200px;
+  bottom: 40px;
+  text-align: center;
+  left: 25px;
+  background-color: #4aaaa5;
+  color: #dddddd;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 640px) {
+
+}
