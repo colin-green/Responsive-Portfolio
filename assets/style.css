@@ -107,13 +107,102 @@ h4 {
 }
 
 @media screen and (max-width: 980px) {
+    .mymain {
+        position: relative;
+        top: 300px;
+        width: 653px;
+    }
+
+    #portlayout {
+        position: relative;
+        top: 450px;
+    }
+
+    footer {
+        position: relative;
+        bottom: 0;
+        margin-top: 50px;
+    }
+
+    #aboutfooter {
+        background-color: #666666;
+        color: #ffffff;
+        text-align: center;
+        padding-top: 40px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        border-top: 8px solid #4aaaa5;
+    }
+
+    /* Tried to make it a sticky footer, not working */
+    #contactfooter {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    #invis1 {
+        display: none;
+    }
+
+    .form-group {
+        width: 613px;
+    }
 
 }
 
 @media screen and (max-width: 768px) {
+    .mymain {
+        width: 512px;
+    }
 
+    #aboutmain {
+        position: relative;
+        top: 350px;
+    }
+
+    #invis1 {
+        display: none;
+    }
+
+    #invis2 {
+        display: none;
+    }
+
+    .form-group {
+        width: 472px;
+    }
 }
 
 @media screen and (max-width: 640px) {
+    .myheader {
+        position: static;
+    }
 
+    #portlayout {
+        position: relative;
+        width: 263px;
+        top: 700px;
+    }
+
+    .mymain {
+        position: relative;
+        top: 375px;
+        width: 427px;
+    }
+
+    #contactmain {
+        top: 300px;
+    }
+
+    #aboutmain {
+        position: relative;
+        top: 385px;
+    }
+
+    .form-group {
+        width: 387px;
+    }
 }
